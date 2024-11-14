@@ -27,7 +27,7 @@ const Hero = () => {
             <div className="flex items-center justify-center lg:justify-start space-x-6">
               <SocialLink href="https://github.com" icon={Github} label="GitHub" />
               <SocialLink href="https://linkedin.com" icon={Linkedin} label="LinkedIn" />
-              <SocialLink href="https://twitter.com" icon={Twitter} label="Twitter" />
+              <SocialLink href="https://twitter.com/OAthooh" icon={Twitter} label="Twitter" />
             </div>
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
