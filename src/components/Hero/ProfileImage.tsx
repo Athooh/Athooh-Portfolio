@@ -6,7 +6,7 @@ const ProfileImage = () => {
       <div className="absolute inset-0 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 animate-pulse" />
       <div className="absolute inset-2 rounded-full overflow-hidden bg-gray-900">
         <img
-          src="/public/images/profile.png"
+          src="images/profile.png"
           alt="Seth Odhiambo Athooh"
           className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"
         />
