@@ -16,7 +16,7 @@ export const projects: Project[] = [
     title: 'Real Estate Listings App',
     description: 'A Platform to buy, sell and connect with contractors for a building project.',
     longDescription: 'Access a vast marketplace where you can buy and sell construction materials, tools, and equipment. Compare prices, read reviews, and choose the best suppliers.',
-    image: '/src/components/images/builders.png',
+    image: '/public/images/builders.png',
     tags: ['Next.js', 'AI/ML', 'Canvas API', 'WebGL'],
     features: [
       'Comprehensive Marketplace',
@@ -34,7 +34,7 @@ export const projects: Project[] = [
     title: 'AfyaChain Solution',
     description: 'A blockchain driven health records management and decentralization.',
     longDescription: 'A sophisticated health records system that uses blockchain technlogy to secure data and ensure integrity while accessing the data from across the globe. Features real-time updates and personalized recommendations.',
-    image: '/src/components/images/afyachain.png',
+    image: '/public/images/afyachain.png',
     tags: ['React Native', 'TensorFlow.js', 'GraphQL', 'Node.js'],
     features: [
       'Real-time health metrics monitoring',
@@ -51,7 +51,7 @@ export const projects: Project[] = [
     title: 'Groupie Tracker',
     description: 'The ultimate destination for music lovers and part-time adventurers.',
     longDescription: 'A dynamic platform designed to bring fans closer to the music and artists they love. Discover detailed artist biographies, explore their complete concert itineraries, and stay updated on the latest events.',
-    image: '/src/components/images/groupieTracker.png',
+    image: '/public/images/groupieTracker.png',
     tags: ['Go', 'Html', 'Css', 'Javascript'],
     features: [
       'Artist Profiles',
