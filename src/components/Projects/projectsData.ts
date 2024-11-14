@@ -26,8 +26,8 @@ export const projects: Project[] = [
       'Cost Estimation',
       'Secure Transactions'
     ],
-    github: 'https://github.com',
-    demo: 'https://demo.com'
+    github: '#https://github.com',
+    demo: '#https://demo.com'
   },
   {
     id: 'smart-health',
@@ -43,8 +43,8 @@ export const projects: Project[] = [
       'Personalized wellness recommendations',
       'Integration with popular HMIS systems'
     ],
-    github: 'https://github.com',
-    demo: 'https://demo.com'
+    github: '#',
+    demo: 'https://afyachain.co.ke'
   },
   {
     id: 'crypto-tracker',
@@ -61,7 +61,7 @@ export const projects: Project[] = [
       'Personalized Notifications',
       'Secure Ticketing Links'
     ],
-    github: 'https://github.com',
-    demo: 'https://demo.com'
+    github: '#https://github.com',
+    demo: '#https://demo.com'
   }
 ];
