@@ -4,25 +4,25 @@ import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
 const socialLinks = [
   {
     icon: Github,
-    href: 'https://github.com',
+    href: 'https://github.com/Athooh',
     label: 'GitHub',
     color: 'hover:text-purple-400'
   },
   {
     icon: Linkedin,
-    href: 'https://linkedin.com',
+    href: 'https://www.linkedin.com/in/seth-athooh-8978a026a/',
     label: 'LinkedIn',
     color: 'hover:text-blue-400'
   },
   {
     icon: Twitter,
-    href: 'https://twitter.com',
+    href: 'https://twitter.com/oathooh',
     label: 'Twitter',
     color: 'hover:text-sky-400'
   },
   {
     icon: Mail,
-    href: 'mailto:seth@example.com',
+    href: 'mailto:oathooh@gmail.com',
     label: 'Email',
     color: 'hover:text-pink-400'
   }
