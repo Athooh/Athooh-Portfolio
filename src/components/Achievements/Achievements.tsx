@@ -8,7 +8,7 @@ const achievements = [
     title: 'HealthTech Hackathon Winner',
     organization: 'Afyachain',
     description: 'Led the winning team in developing an innovative blockchain-based healthcare data management solution, recognized as the Best Health Tech Solution.',
-    date: '2023',
+    date: '2024',
     color: 'from-yellow-500 to-amber-500'
   },
   {
@@ -16,15 +16,15 @@ const achievements = [
     title: 'Kisumu Gophers Community Leader',
     organization: 'Tech Community',
     description: 'Founded and lead the Kisumu Gophers Community, organizing regular meetups, workshops, and hackathons to empower local developers in Golang.',
-    date: '2022 - Present',
+    date: '2024 - Present',
     color: 'from-blue-500 to-cyan-500'
   },
   {
     icon: Brain,
-    title: 'Zone 01 Technical Mentor',
+    title: 'Zone 01 Apprentice',
     organization: 'Zone 01 Kisumu',
-    description: 'Mentored over 100 aspiring developers, helping them master full-stack development and secure positions at top tech companies.',
-    date: '2022 - Present',
+    description: 'Part of the over 100 aspiring developers, helping them master full-stack development and secure positions at top tech companies.',
+    date: '2024 - Present',
     color: 'from-purple-500 to-pink-500'
   },
   {

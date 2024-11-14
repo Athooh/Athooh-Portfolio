@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 mb-4">
               <Code2 className="w-6 h-6 text-purple-500" />
               <span className="text-xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
-                DevPortfolio
+                OAthooh
               </span>
             </div>
             <p className="text-gray-400 leading-relaxed">

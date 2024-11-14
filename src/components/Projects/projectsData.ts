@@ -12,33 +12,19 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: 'crypto-tracker',
-    title: 'CryptoTracker Pro',
-    description: 'Real-time cryptocurrency tracking platform with advanced analytics and portfolio management.',
-    longDescription: 'A comprehensive cryptocurrency tracking platform that provides real-time price updates, advanced technical analysis tools, and portfolio management features. Built with React and TypeScript, utilizing WebSocket connections for live data.',
-    image: 'https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&w=1200&q=80',
-    tags: ['React', 'TypeScript', 'WebSocket', 'TailwindCSS'],
-    features: [
-      'Real-time price tracking with WebSocket integration',
-      'Advanced technical analysis charts',
-      'Portfolio management with performance metrics',
-      'Customizable price alerts and notifications'
-    ],
-    github: 'https://github.com',
-    demo: 'https://demo.com'
-  },
-  {
     id: 'ai-image-generator',
-    title: 'AI Art Studio',
-    description: 'AI-powered image generation platform with style transfer and artistic filters.',
-    longDescription: 'An innovative AI-powered platform that allows users to generate unique artwork, apply style transfers, and create custom filters. Leverages machine learning models for real-time image processing.',
-    image: 'https://images.unsplash.com/photo-1547826039-bfc35e0f1ea8?auto=format&fit=crop&w=1200&q=80',
+    title: 'Real Estate Listings App',
+    description: 'A Platform to buy, sell and connect with contractors for a building project.',
+    longDescription: 'Access a vast marketplace where you can buy and sell construction materials, tools, and equipment. Compare prices, read reviews, and choose the best suppliers.',
+    image: '/src/components/images/builders.png',
     tags: ['Next.js', 'AI/ML', 'Canvas API', 'WebGL'],
     features: [
-      'Real-time AI image generation',
-      'Custom style transfer algorithms',
-      'Advanced filter creation tools',
-      'Community gallery and sharing features'
+      'Comprehensive Marketplace',
+      'Contractor Connection',
+      'Project Management Tools',
+      'Verified Professionals and Suppliers',
+      'Cost Estimation',
+      'Secure Transactions'
     ],
     github: 'https://github.com',
     demo: 'https://demo.com'
@@ -56,6 +42,24 @@ export const projects: Project[] = [
       'AI-powered health predictions',
       'Personalized wellness recommendations',
       'Integration with popular HMIS systems'
+    ],
+    github: 'https://github.com',
+    demo: 'https://demo.com'
+  },
+  {
+    id: 'crypto-tracker',
+    title: 'Groupie Tracker',
+    description: 'The ultimate destination for music lovers and part-time adventurers.',
+    longDescription: 'A dynamic platform designed to bring fans closer to the music and artists they love. Discover detailed artist biographies, explore their complete concert itineraries, and stay updated on the latest events.',
+    image: '/src/components/images/groupieTracker.png',
+    tags: ['Go', 'Html', 'Css', 'Javascript'],
+    features: [
+      'Artist Profiles',
+      'Maps Integration',
+      'Concert Itineraries',
+      'Chat with Fellow Fans',
+      'Personalized Notifications',
+      'Secure Ticketing Links'
     ],
     github: 'https://github.com',
     demo: 'https://demo.com'
