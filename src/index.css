@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes shake {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-10deg); }
+  75% { transform: rotate(10deg); }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+  75% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes rotateIn {
+  0% {
+    opacity: 0;
+    transform: perspective(1000px) rotateY(90deg);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(1000px) rotateY(0);
+  }
+}
+
+.nav-icon {
+  @apply transition-all duration-300;
+}
+
+.nav-item:hover .nav-icon {
+  animation: shake 0.5s ease-in-out;
+}
+
+.nav-item {
+  @apply relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 
+         after:bg-purple-500 after:transition-all after:duration-300 hover:after:w-full;
+  animation: slideIn 0.8s ease-out backwards;
+}
+
+.nav-item:nth-child(1) { animation-delay: 0.1s; }
+.nav-item:nth-child(2) { animation-delay: 0.2s; }
+.nav-item:nth-child(3) { animation-delay: 0.3s; }
+.nav-item:nth-child(4) { animation-delay: 0.4s; }
+.nav-item:nth-child(5) { animation-delay: 0.5s; }
+
+.skill-card {
+  animation: slideIn 0.8s ease-out backwards;
+}
+
+.about-visible .about-title {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.about-visible .about-text {
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: 0.2s;
+}
+
+.about-visible .experience-card {
+  animation: rotateIn 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.about-visible .experience-card:nth-child(1) { animation-delay: 0.3s; }
+.about-visible .experience-card:nth-child(2) { animation-delay: 0.4s; }
+.about-visible .experience-card:nth-child(3) { animation-delay: 0.5s; }
+.about-visible .experience-card:nth-child(4) { animation-delay: 0.6s; }
