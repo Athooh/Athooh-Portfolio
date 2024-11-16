@@ -7,6 +7,15 @@ const Footer = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const scrollToSection = (sectionId: string) => {
+    if (sectionId === 'top') {
+      scrollToTop();
+      return;
+    }
+    const element = document.getElementById(sectionId.toLowerCase());
+    element?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <footer className="relative bg-gray-900/50 backdrop-blur-sm pt-20 pb-6">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -26,14 +35,14 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              {['About', 'Skills', 'Projects', 'Achievements', 'Contact'].map((link) => (
+              {['Home', 'About', 'Skills', 'Projects', 'Achievements', 'Contact'].map((link) => (
                 <li key={link}>
-                  <a
-                    href={`#${link.toLowerCase()}`}
-                    className="text-gray-400 hover:text-purple-400 transition-colors duration-300"
+                  <button
+                    onClick={() => scrollToSection(link === 'Home' ? 'top' : link)}
+                    className="text-gray-400 hover:text-purple-400 transition-colors duration-300 cursor-pointer"
                   >
                     {link}
-                  </a>
+                  </button>
                 </li>
               ))}
             </ul>

@@ -5,6 +5,20 @@ import SocialLink from './SocialLink';
 import TypewriterText from './TypewriterText';
 
 const Hero = () => {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    contactSection?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const downloadCV = () => {
+    const link = document.createElement('a');
+    link.href = '/cv.pdf';
+    link.download = 'seth-odhiambo-cv.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="relative flex items-center min-h-screen px-4 sm:px-6">
       <div className="max-w-7xl mx-auto w-full py-20">
@@ -30,11 +44,17 @@ const Hero = () => {
               <SocialLink href="https://twitter.com/OAthooh" icon={Twitter} label="Twitter" />
             </div>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-              <button className="w-full sm:w-auto px-8 py-3 bg-purple-500 hover:bg-purple-600 text-white rounded-full font-medium transition-colors duration-300">
+                  <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+              <button 
+                onClick={downloadCV}
+                className="w-full sm:w-auto px-8 py-3 bg-purple-500 hover:bg-purple-600 text-white rounded-full font-medium transition-colors duration-300"
+              >
                 Download CV
               </button>
-              <button className="w-full sm:w-auto px-8 py-3 border border-purple-500 text-purple-500 hover:bg-purple-500/10 rounded-full font-medium transition-colors duration-300">
+              <button 
+                onClick={scrollToContact}
+                className="w-full sm:w-auto px-8 py-3 border border-purple-500 text-purple-500 hover:bg-purple-500/10 rounded-full font-medium transition-colors duration-300"
+              >
                 Contact Me
               </button>
             </div>
