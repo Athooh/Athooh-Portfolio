@@ -28,7 +28,7 @@ export const skillsData: Record<string, Skill[]> = {
     { name: 'HTML5', icon: FileCode2, level: 95 },
     { name: 'CSS3', icon: Palette, level: 90 },
     { name: 'JavaScript', icon: Code2, level: 92 },
-    { name: 'TypeScript', icon: FileJson, level: 88 },
+    // { name: 'TypeScript', icon: FileJson, level: 88 },
     { name: 'React', icon: Blocks, level: 90 },
     { name: 'Tailwind CSS', icon: Layers, level: 85 },
   ],
