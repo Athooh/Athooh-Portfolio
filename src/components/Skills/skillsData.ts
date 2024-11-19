@@ -4,16 +4,16 @@ import {
   Palette,
   Code2,
   Blocks,
-  FileJson,
+  // FileJson,
   Layers,
-  Server,
+  // Server,
   Database,
   GalleryVerticalEnd,
   Binary,
   Container,
   GitBranch,
   Terminal,
-  Cloud,
+  // Cloud,
   Workflow
 } from 'lucide-react';
 
